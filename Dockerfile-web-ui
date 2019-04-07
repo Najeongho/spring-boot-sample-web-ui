@@ -1,0 +1,7 @@
+FROM openjdk:12-jdk-alpine
+ARG APP_VERSION=v1
+RUN apk update && apk add curl
+WORKDIR /App/springbootsampleapp
+COPY build/libs/spring-boot-sample-web-ui-${APP_VERSION}.war /App/springbootsampleapp/spring-boot-sample.war
+EXPOSE 8080
+CMD ["sh","-c","java -jar spring-boot-sample.war"]

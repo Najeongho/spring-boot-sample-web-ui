@@ -1,0 +1,4 @@
+FROM nginx:alpine
+ARG APP_VERSION=v1
+RUN apk update && apk add curl
+COPY conf/nginx.conf /etc/nginx/nginx.conf

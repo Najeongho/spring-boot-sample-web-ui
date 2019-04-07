@@ -1,0 +1,18 @@
+.gradle
+.idea/
+.settings
+.project
+.metadata
+.classpath
+build
+logs
+out
+target
+bin
+.classpath
+.metadata
+.pmd
+bash.exe.st ackdump
+**.iml
+.war
+.vscode
