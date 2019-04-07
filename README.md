@@ -1,4 +1,4 @@
-# Devops 사전과제 구현내용 (지원자 : 나정호)
+# SPRING-BOOT-SAMPLE-WEB-UI
 
 
 ## 1. Gradle build
